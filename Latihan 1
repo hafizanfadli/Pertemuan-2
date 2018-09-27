@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	int jam;
+	int menit;
+	int jm;
+	
+	cout<<"jam ke menit\n";
+	cout<< "Jam : ";
+	cin>> jam;
+	jm = jam*60;
+	cout << "jam ke menit : " << jm << " menit" ;
+    
+    return 0;
+}
