@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+ int Nilai;
+
+    cout << "Masukan Bilangan : ";
+    cin >> Nilai;
+    cout << endl;
+
+    if (Nilai % 2 )
+    {
+        cout << "Bilangan " << Nilai << " adalah bilangan ganjil";
+    }
+    else
+    {
+        cout << "Bilangan " << Nilai << " adalah bilangan genap";
+    }
+
+    return 0;
+}
