@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+ int jam, menit, detik,sbagijam, sbagimenit;
+
+    cout << "konversi waktu\n";
+    cout << "Detik : ";
+    cin >> detik;
+    cout << endl;
+
+   jam = detik/3600;
+   sbagijam = detik%3600;
+   menit = sbagijam/60;
+   sbagimenit = sbagijam%60;
+   
+   cout<< jam << " jam " << menit << " menit " << sbagimenit << " detik ";
+
+    return 0;
+}
